@@ -48,13 +48,13 @@ form {
 #sign-up-form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .form-input-control {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 6px;
 }
 
 .fic2 {
@@ -82,12 +82,13 @@ form {
 .form-group-vertical-control {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 6px;
 }
 
+input,
 #state,
 #city {
-  height: 25px;
+  height: 30px;
 }
 
 .one {

@@ -37,9 +37,15 @@ section {
 }
 
 .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-search {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .logo {
@@ -54,6 +60,9 @@ section {
   background: #1f1f27;
   padding: 10px 20px;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-bar input {
@@ -71,6 +80,8 @@ section {
 }
 
 .options {
+  display: flex;
+  gap: 20px;
 }
 
 .option {
@@ -87,6 +98,9 @@ section {
 .categories {
   background-color: #2b2d36;
   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
 .category {
@@ -111,6 +125,14 @@ section {
 }
 
 .view-options {
+  display: flex;
+  gap: 25px;
+}
+
+.view-option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 i.fa-th-list {
@@ -120,6 +142,9 @@ i.fa-th-list {
 .section-control {
   padding-bottom: 20px;
   border-bottom: 1px solid #8d8ba5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .section-control .view-option {
@@ -138,6 +163,12 @@ i.fa-th-list {
   border-radius: 8px;
   overflow: hidden;
   background-color: #2b2d36;
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .product img {
@@ -182,6 +213,9 @@ i.fa-th-list {
 /* GRID VIEW STYLES */
 
 .grid.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .grid .product {
@@ -209,11 +243,13 @@ i.fa-th-list {
 
 /* LINE VIEW STYLES */
 
-.lines.products {
+.lines .products {
+  display: flex;
 }
 
 .lines .product {
   padding: 20px;
+  display: flex;
 }
 
 .lines .product-image-wrapper {
@@ -222,20 +258,28 @@ i.fa-th-list {
 }
 
 .lines .product-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .lines .product-info {
+  gap: 10px;
+  padding: 20px;
 }
 
 .lines .product-action {
+  padding-left: 10px;
 }
 
 /* LINES-ACTION VIEW */
 
 .lines-action.products {
+  display: flex;
 }
 
 .lines-action .product {
+  display: flex;
 }
 
 .lines-action .product-image-wrapper {
@@ -244,13 +288,21 @@ i.fa-th-list {
 }
 
 .lines-action .product-data {
+  display: flex;
 }
 
 .lines-action .product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
 }
 
 .lines-action .product-action {
   border-left: 1px solid #8d8ba5;
   padding-left: 30px;
   min-width: 200px;
+  display: flex;
+  align-items: center;
 }
